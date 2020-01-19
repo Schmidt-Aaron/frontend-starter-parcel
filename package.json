@@ -1,0 +1,47 @@
+{
+  "name": "frontend-starter-parcel",
+  "version": "1.0.0",
+  "description": "a mildly opinionated starter for front end projects",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schmidt-Aaron/frontend-starter-parcel.git"
+  },
+  "keywords": [
+    "starter",
+    "parcel",
+    "sass",
+    "eslint",
+    "prettier",
+    "babel"
+  ],
+  "author": "Aaron Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Schmidt-Aaron/frontend-starter-parcel/issues"
+  },
+  "homepage": "https://github.com/Schmidt-Aaron/frontend-starter-parcel#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-eslint": "^1.0.8-2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-modules": "^1.5.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.25.0"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {}
+}
